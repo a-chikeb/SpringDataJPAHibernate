@@ -33,6 +33,10 @@ public class ProductService {
         return productRepository.findByPriceLessThan(price);
     }
 
+    public Product addProduct(Product p){
+        return productRepository.save(p);
+    }
+
 
 
 

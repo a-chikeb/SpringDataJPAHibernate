@@ -1,6 +1,7 @@
 package com.programming.springdata.models;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
@@ -8,6 +9,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "basket")
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Basket {
